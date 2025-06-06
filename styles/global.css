@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --color-poppy: #f97316; /* orange from the flower */
+    --color-navy: #1e293b;  /* dark blue for text */
+    --color-cream: #fdf5e6; /* soft tan background */
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-navy);
+    font-family: 'DM Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    font-weight: 700; /* replaces @apply font-bold */
+  }
+
+  a {
+    color: var(--color-navy);
+    text-underline-offset: 2px;
+  }
+
+  a:hover {
+    color: var(--color-poppy);
+  }
+}
