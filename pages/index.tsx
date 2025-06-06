@@ -37,9 +37,7 @@ export default function Home() {
       <section className="flex flex-col items-center justify-center text-center pt-32 pb-24 px-4">
         <h1 className="text-4xl font-bold mb-2">Your partner in AI-powered growth</h1>
         <p className="text-lg max-w-2xl">
-          What if you could bring on high-performing sales, marketing, and support reps — for less than 1% of the cost of hiring a human?
-          <br /><br />
-          Agentic Pacific helps you harness the best of AI with turnkey setup and maintenance. We track the latest advancements so you don't have to — and we tailor solutions to your business, not the other way around.
+          Agentic Pacific helps you harness the best of AI with turnkey setup and ongoing support. We track the latest advancements so you don't have to — and we tailor solutions to your business, not the other way around.
         </p>
       </section>
 
@@ -48,16 +46,16 @@ export default function Home() {
         <h2 className="text-2xl font-semibold text-center mb-8">What We Do</h2>
         <div className="max-w-6xl mx-auto grid gap-8 md:grid-cols-3">
           <div className="bg-[#f7f5ef] p-6 rounded-lg shadow hover:shadow-lg transition">
-            <h3 className="font-bold text-xl mb-2">Sales Agents</h3>
-            <p className="text-gray-700">24/7 AI agents trained on your business to handle inbound questions, qualify leads, and hand off to your team when it's time.</p>
+            <h3 className="font-bold text-xl mb-2">AI Agents</h3>
+            <p className="text-gray-700">Around-the-clock agents trained on your business to answer questions, collect information, and route inquiries intelligently.</p>
           </div>
           <div className="bg-[#f7f5ef] p-6 rounded-lg shadow hover:shadow-lg transition">
-            <h3 className="font-bold text-xl mb-2">Customer Support</h3>
-            <p className="text-gray-700">Fast, empathetic support agents that resolve common issues and free up your human team to focus on the hard stuff.</p>
+            <h3 className="font-bold text-xl mb-2">Service Automation</h3>
+            <p className="text-gray-700">Responsive agents that handle common tasks, provide helpful answers, and escalate when needed — without delay.</p>
           </div>
           <div className="bg-[#f7f5ef] p-6 rounded-lg shadow hover:shadow-lg transition">
-            <h3 className="font-bold text-xl mb-2">Marketing Automation</h3>
-            <p className="text-gray-700">Personalized outbound campaigns, follow-ups, and insights — crafted with AI, guided by your goals.</p>
+            <h3 className="font-bold text-xl mb-2">Workflow Orchestration</h3>
+            <p className="text-gray-700">End-to-end automation that connects the right tools, actions, and insights — built to enhance your daily operations.</p>
           </div>
         </div>
       </section>
