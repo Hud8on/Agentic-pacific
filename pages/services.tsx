@@ -15,46 +15,46 @@ export default function Services() {
         <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-12 items-start py-8 min-h-[500px]">
           <div className="space-y-10 max-w-prose pr-4">
             <p className="mb-8 text-lg text-gray-700">
-              In the world of AI, the technology, tools, and trends are all moving incredibly quickly. The businesses that get ahead now will be better positioned in the long run. To help you stay ahead of the pack, work with experts who care.
+              We've spent the last six months testing, implementing, and surveying the full AI productivity landscape — so you don't have to. Agentic Pacific is your guide through the noise: product-agnostic, deeply informed, and laser-focused on ROI. We help you save time, cut costs, and modernize operations with tailor-fit solutions.
             </p>
 
             <p className="mb-12 text-lg text-gray-700">
-              Agentic Pacific provides an end-to-end solution for realizing the value of AI in your business—today. Everything that will make you successful, we make our business. Training your people, mapping out your needs to the industry, getting the right tools, and custom implementations are all part of what we can take on to help you run faster and fly higher.
+              Whether you're just starting to explore AI or you're ready to scale automation, our team delivers expert-backed recommendations, implementation, and ongoing support. This isn't just another tech upgrade — it's a transformation. Let's make sure you're ahead of it.
             </p>
 
             <div className="space-y-10">
               <section>
                 <h2 className="text-2xl font-semibold mb-2">AI Education & Training</h2>
                 <p>
-                  Help your teams realize the value of AI with best practices, tips, and tutorials for learning AI tools, techniques, and trends.
+                  Give your team the confidence to use AI effectively. We provide hands-on training, curated best practices, and up-to-date guidance to help you unlock AI's potential without overwhelm.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-semibold mb-2">AI Needs Assessment</h2>
                 <p>
-                  We'll help you uncover the best opportunities to apply AI to your unique business challenges.
+                  We get to know your workflows, pain points, and opportunities. Then we map out the most impactful ways AI can help — clearly, strategically, and with no fluff.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-semibold mb-2">AI Vendor Assessment & Procurement</h2>
                 <p>
-                  At Agentic Pacific, we've spent months reading, analyzing, and testing new AI tools and features. We'll help you maximize ROI by finding the perfect tools for your needs and budget. As agency partners, we also work directly with vendors to get you the best price possible.
+                  We've reviewed hundreds of tools so you don't have to. As product-agnostic experts and agency partners, we match you with the best-fit AI solutions — and help you get them at the best price.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-semibold mb-2">Process Planning and Scoping</h2>
                 <p>
-                  Once your goals, budget, needs, and tools are mapped, we'll ensure you're set up for success—whether we implement the solution or empower your team to do so.
+                  With your goals and tools aligned, we create a clear, phased plan to make your AI rollout successful — whether we're implementing it or handing off to your team.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-semibold mb-2">AI Implementation Services</h2>
                 <p>
-                  Agentic Pacific takes pride in delivering high-quality, end-to-end AI implementation tailored to your business needs.
+                  We deliver full-service implementation of AI solutions — fast, secure, and tailored to your business. Automations that actually work, from day one.
                 </p>
               </section>
             </div>
@@ -72,3 +72,15 @@ export default function Services() {
     </>
   );
 }
+          {/* Our Process Section */}
+          <section className="mt-16">
+            <h2 className="text-2xl font-semibold mb-4">Our Process</h2>
+            <ul className="list-disc list-inside space-y-2 text-gray-700">
+              <li><strong>Intro Call:</strong> Understand your goals and needs</li>
+              <li><strong>Assessment:</strong> Map inefficiencies and opportunities</li>
+              <li><strong>Proposal:</strong> We present a custom AI strategy</li>
+              <li><strong>Implementation:</strong> We deploy tools & automations</li>
+              <li><strong>Training:</strong> Your team learns how to use them</li>
+              <li><strong>Ongoing Support:</strong> Stay up to date with check-ins and updates</li>
+            </ul>
+          </section>
